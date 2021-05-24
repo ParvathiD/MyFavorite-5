@@ -1,0 +1,140 @@
+body {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    height: 300px;
+    border-style: solid;
+    border-color: violet;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Girassol', cursive;
+    text-shadow: 2px 2px violet;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Texturina', serif;
+}
+
+#Welcome {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(#ffb5b0 33%, #e1bee7 82%);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+#About {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(#b0f3ff 33%, #b1ffbc 82%);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+#Herm1{
+    padding-right: 50px;
+}
+#Herm2{
+    padding-left: 50px;
+}
+#Reviews {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: lightcyan;
+}
+html {
+    scroll-behavior: smooth;
+}
+#Work {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: lightgoldenrodyellow;
+}
+#BotDesign{
+    width: 1800px;
+    height: 200px;
+}
+#JKR {
+    transition: transform .2s;
+    border: 10px, solid;
+    border-radius: 2%;
+}
+#JKR:hover {
+    transform: scale(0.9);
+}
+#Inspo {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: lavenderblush;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightcoral;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: indianred;
+}
+#Sign{
+    border: none;
+    padding-left: 100px;
+
+}
+#BW{
+    border: none;
+    width: 400px;
+    height: 400px;
+    padding-right: 100px;
+        padding-left: 100px;
+
+}
+#contacts {
+    background-color: palevioletred;
+}
+#contacts iframe {
+    width: 100%;
+}
+contact_1 h3 {
+    display: inline;
+}
+contact_1 a{
+    text-shadow: none;
+    color: white;
+}
+#myname{
+    font-family: fantasy;
+    font-size: 30px;
+    color: indianred;
+}
+#myname:hover{
+    color: orangered;
+}
